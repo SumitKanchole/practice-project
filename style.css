@@ -62,18 +62,37 @@ ul li {
     border-width: 3px;
 
 }
-.heading .contain {
-    display: inline;
-    
-}
-h1 {
+.contain> .head {
+    display: inline-flex;
     position: relative;
-    font-size: 53px;
+}
+
+h1 {
+    position:absolute;
+    display: inline;
+    flex-wrap: wrap;
+    font-size: 63px;
+    justify-content: end;
     font-weight: 900;
+    bottom: 182px;
+    width: 40vw;
 }
 p {
-    position: relative;
-    font-size: 23px;
+    position: absolute;
+    font-size: 18px;
     display: flex;
-    width: 50vw;
+    flex-wrap: wrap;
+    justify-content: end;
+    width: 40vw;
+    bottom: 142px;
+    
+
 }
+.box {
+    display: inline-flex;
+    padding: 43px;
+    position: relative;
+    margin: 0px 42px;
+    border: 2px solid white;
+}
+
